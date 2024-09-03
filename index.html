@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <h1>To do List</h1>
         <button id="toggle"></button>
     </nav>
-
     <hr>
+    <div id="login">
+        <form >
+            <h1>Login</h1>
+            <input type="text" placeholder="usrname" id="usrname">
+            <input type="password" placeholder="password" id="password">
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
 
-    <main>
-        <div class="input">
-            <input id="input" type="text">
-            <button id="add">Add</button>
-        </div>
-    </main>
-    <hr>
-    <div id="todo-list"></div>
+    <div id="app">
+        <main>
+            <h1>To do List</h1>
+            <div class="input">
+                <input id="input" type="text">
+                <button id="add">Add</button>
+            </div>
+        </main>
+        <hr>
+        <ul id="todo-list"></ul>
+    </div>
+
+
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -53,6 +53,39 @@ nav{
     padding: 1rem 2rem;
 }
 
+#login{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+form{
+    padding: 2rem;
+    margin: 1rem auto;
+    height: 22rem;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+form input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 16px;
+    border: 2px solid grey;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
 main{
     width: 90vw;
     display: flex;
